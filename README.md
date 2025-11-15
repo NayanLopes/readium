@@ -109,6 +109,16 @@ Criar um ambiente digital que promova o **compartilhamento de leituras e descobe
 
 ---
 
+## 🔀 Fluxo de Trabalho
+
+Nós usaremos o fluxo GitHub Flow, onde teremos uma branch principal(main) e branchs de feature. A ideia é que tudo o que está na main esteja pronto para produção.
+
+* `main` : versão para produção
+* `develop` : versão em desenvolvimento
+* `feature/nome-da-featue` : para novas funcionalidades
+* `fix/descricao` : para corrigir bugs
+* `docs/descricao` : somente para alteração de documentação 
+
 ## 📄 Licença
 
 Este projeto é de **uso acadêmico** e destina-se a fins educacionais.
