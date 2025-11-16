@@ -119,6 +119,14 @@ Nós usaremos o fluxo GitHub Flow, onde teremos uma branch principal(main) e bra
 * `fix/descricao` : para corrigir bugs
 * `docs/descricao` : somente para alteração de documentação 
 
+## 📜 Nomeação de commits
+Nś adotaremos o padrão *Conventional Commits*, onde usaremos os seguintes prefixos:
+
+* **feat:** adiciona uma nova funcionalidade
+* **fix:** correção de bug
+* **chore:** manutenção ou configuração(dependência, etc)
+* **docs:** alteração na documentação
+
 ## 📄 Licença
 
 Este projeto é de **uso acadêmico** e destina-se a fins educacionais.
