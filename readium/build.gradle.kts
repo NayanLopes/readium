@@ -1,8 +1,6 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
-    alias(libs.plugins.kotlin.compose) apply false
+    kotlin("android") version "1.9.22" apply false
+    kotlin("kapt") version "1.9.22" apply false
 }
 
 buildscript {
@@ -11,20 +9,14 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.1' // ajuste conforme seu projeto
-        classpath 'com.google.gms:google-services:4.4.4' // plugin Google Services
+        classpath("com.android.tools.build:gradle:8.1.1")
+        classpath("com.google.gms:google-services:4.4.4")
     }
 }
 
-pluginManagement {
+allprojects {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
     }
-}
-dependencies { 
-
-classpath("com.android.tools.build:gradle:8.1.1")
-        classpath("com.google.gms:google-services:4.4.4")
 }
