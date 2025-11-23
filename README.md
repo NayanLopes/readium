@@ -109,6 +109,15 @@ Criar um ambiente digital que promova o **compartilhamento de leituras e descobe
 
 ---
 
+## 📱 Camadas da Aplicação
+
+- **UI Layer (Jetpack Compose):** telas, componentes e navegação
+- **ViewModel:** gerenciamento de estado, regras de apresentação e eventos da UI
+- **Repository:** comunicação entre ViewModel e fontes de dados
+- **Firebase:** autenticação, Firestore, Storage e serviços em nuvem
+
+---
+
 ## 🔀 Fluxo de Trabalho
 
 Nós usaremos o fluxo GitHub Flow, onde teremos uma branch principal(main) e branchs de feature. A ideia é que tudo o que está na main esteja pronto para produção.
