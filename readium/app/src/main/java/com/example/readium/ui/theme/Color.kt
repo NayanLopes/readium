@@ -2,10 +2,18 @@ package com.example.readium.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Cores do Readium - Apenas FFD640, FFFFFF e 000000
+val ReadiumPrimary = Color(0xFFFFD640)
+val ReadiumSecondary = Color(0xFFFFD640)
+val ReadiumBackground = Color(0xFFFFFFFF)
+val ReadiumSurface = Color(0xFFFFFFFF)
+val ReadiumOnPrimary = Color(0xFF000000)
+val ReadiumOnSecondary = Color(0xFF000000)
+val ReadiumOnBackground = Color(0xFF000000)
+val ReadiumOnSurface = Color(0xFF000000)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Cores para modo escuro
+val ReadiumBackgroundDark = Color(0xFF000000)
+val ReadiumSurfaceDark = Color(0xFF000000)
+val ReadiumOnBackgroundDark = Color(0xFFFFFFFF)
+val ReadiumOnSurfaceDark = Color(0xFFFFFFFF)
