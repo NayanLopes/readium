@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "readium"
+rootProject.name = "Readium"
 include(":app")
- 
