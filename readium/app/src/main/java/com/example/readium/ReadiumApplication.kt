@@ -7,7 +7,7 @@ class ReadiumApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         
-        // Inicializar Firebase
+        //inicializa Firebase
         FirebaseConfig.initialize(this)
     }
 }

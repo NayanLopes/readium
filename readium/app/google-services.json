@@ -12,7 +12,20 @@
           "package_name": "com.example.readium"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "339444994596-thq5vilk0mbrc6si7f6n492m1558e9dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.readium",
+            "certificate_hash": "4eb741f2910200ddb694461730a31f5944959106"
+          }
+        },
+        {
+          "client_id": "339444994596-1ojf64rde27u5e95dhlc04i29tofb5nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCOUFiwsF-55GpRuOPBYTFcAMu7SzQ4wUs"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339444994596-1ojf64rde27u5e95dhlc04i29tofb5nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

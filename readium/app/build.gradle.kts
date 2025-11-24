@@ -49,12 +49,25 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation("androidx.compose.material:material-icons-extended:1.6.1")
     
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
+    implementation("com.google.firebase:firebase-storage-ktx")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
     
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    
+    // Image Loading
+    // Coil Compose (explicit) — necessário para carregar URIs selecionadas
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    
+    // DataStore
+    implementation(libs.androidx.datastore.preferences)
 }

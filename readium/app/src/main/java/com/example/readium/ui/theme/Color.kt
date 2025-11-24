@@ -2,7 +2,7 @@ package com.example.readium.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Cores do Readium - Apenas FFD640, FFFFFF e 000000
+//paleta de cores:  FFD640, FFFFFF e 000000
 val ReadiumPrimary = Color(0xFFFFD640)
 val ReadiumSecondary = Color(0xFFFFD640)
 val ReadiumBackground = Color(0xFFFFFFFF)
@@ -12,7 +12,7 @@ val ReadiumOnSecondary = Color(0xFF000000)
 val ReadiumOnBackground = Color(0xFF000000)
 val ReadiumOnSurface = Color(0xFF000000)
 
-// Cores para modo escuro
+//cores para o modo escuro
 val ReadiumBackgroundDark = Color(0xFF000000)
 val ReadiumSurfaceDark = Color(0xFF000000)
 val ReadiumOnBackgroundDark = Color(0xFFFFFFFF)

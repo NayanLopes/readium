@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Permissões básicas -->
+    <!--permissões-->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <application
         android:name=".ReadiumApplication"
@@ -14,7 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Readium">
 
-        <!-- MainActivity como ponto de entrada -->
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.Readium"

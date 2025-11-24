@@ -26,7 +26,6 @@ private val DarkColorScheme = darkColorScheme(
     onBackground = ReadiumOnBackgroundDark,
     onSurface = ReadiumOnSurfaceDark
 )
-
 private val LightColorScheme = lightColorScheme(
     primary = ReadiumPrimary,
     secondary = ReadiumSecondary,
@@ -38,11 +37,9 @@ private val LightColorScheme = lightColorScheme(
     onBackground = ReadiumOnBackground,
     onSurface = ReadiumOnSurface
 )
-
 @Composable
 fun ReadiumTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {

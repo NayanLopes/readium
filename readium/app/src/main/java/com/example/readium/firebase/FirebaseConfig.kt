@@ -16,12 +16,22 @@ object FirebaseConfig {
         get() = _firestore ?: throw IllegalStateException("Firebase não foi inicializado")
     
     fun initialize(context: Context) {
-        if (FirebaseApp.getApps(context).isEmpty()) {
-            FirebaseApp.initializeApp(context)
+        try {
+            if (FirebaseApp.getApps(context).isEmpty()) {
+                val app = FirebaseApp.initializeApp(context)
+                println("Firebase inicializado: ${app?.name}")
+            } else {
+                println("Firebase já estava inicializado")
+            }
+            
+            _auth = FirebaseAuth.getInstance()
+            _firestore = FirebaseFirestore.getInstance()
+            
+            println("Firebase Auth e Firestore configurados com sucesso")
+        } catch (e: Exception) {
+            println("Erro ao inicializar Firebase: ${e.message}")
+            e.printStackTrace()
         }
-        
-        _auth = FirebaseAuth.getInstance()
-        _firestore = FirebaseFirestore.getInstance()
     }
     
     fun isInitialized(): Boolean {
